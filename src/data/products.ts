@@ -1,100 +1,74 @@
-import { Product } from "../contexts/CartContext";
+import { Product } from '../contexts/CartContext';
+import kursi1 from '../assets/gallery/kursi1.jpg';
+import kursi2 from '../assets/gallery/kursi2.jpg';
+import kursi3 from '../assets/gallery/kursi3.jpg';
+import kursi4 from '../assets/gallery/kursi4.jpg';
+import kursi5 from '../assets/gallery/kursi5.jpg';
+import kursi6 from '../assets/gallery/kursi6.jpg';
+import kursi7 from '../assets/gallery/kursi7.jpg';
+import kursi8 from '../assets/gallery/kursi8.jpg';
+import sofa1 from '../assets/gallery/sofa1.jpg';
+import sofa2 from '../assets/gallery/sofa2.jpg';
+import sofa3 from '../assets/gallery/sofa3.jpg';
+import sofa4 from '../assets/gallery/sofa4.jpg';
+import sofa5 from '../assets/gallery/sofa5.jpg';
+import sofa6 from '../assets/gallery/sofa6.jpg';
+import sofa7 from '../assets/gallery/sofa7.jpg';
+import sofa8 from '../assets/gallery/sofa8.jpg';
+import springbed1 from '../assets/gallery/springbed1.jpg';
+import springbed2 from '../assets/gallery/springbed2.jpg';
+import springbed3 from '../assets/gallery/springbed3.jpg';
+import springbed4 from '../assets/gallery/springbed4.jpg';
+import springbed5 from '../assets/gallery/springbed5.jpg';
+import springbed6 from '../assets/gallery/springbed6.jpg';
+import springbed7 from '../assets/gallery/springbed7.jpg';
+import springbed8 from '../assets/gallery/springbed8.jpg';
+import tempahan1 from '../assets/gallery/tempahan1.jpg';
+import tempahan2 from '../assets/gallery/tempahan2.jpg';
+import tempahan3 from '../assets/gallery/tempahan3.jpg';
+import tempahan4 from '../assets/gallery/tempahan4.jpg';
+import tempahan5 from '../assets/gallery/tempahan5.jpg';
+import tempahan6 from '../assets/gallery/tempahan6.jpg';
+import tempahan7 from '../assets/gallery/tempahan7.jpg';
+import tempahan8 from '../assets/gallery/tempahan8.jpg';
 
 export const productsData: Product[] = [
   {
-    id: "1",
-    name: "Sofa L Minimalis Modern",
-    description: "Sofa L dengan desain modern dan kenyamanan maksimal",
+    id: '1',
+    name: 'Sofa Sudut Tempahan',
+    description: 'Sofa sudut custom dengan material premium',
     price: 8500000,
-    image: "https://images.unsplash.com/photo-1763565909003-46e9dfb68a00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzb2ZhJTIwZnVybml0dXJlfGVufDF8fHx8MTc2NDE1NjgzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "Sofa",
+    image: tempahan2,
+    category: 'Sofa',
     stock: 5,
-    branch: "Medan",
-    branchPhone: "+6281234567890",
-    details: "Material: Fabric premium dengan rangka kayu jati. Dimensi: 280cm x 180cm x 85cm. Busa berkualitas tinggi dengan ketebalan 20cm. Cocok untuk ruang keluarga modern. Garansi 2 tahun untuk rangka.",
+    branch: 'Medan',
+    branchPhone: '+6281362283542',
+    details:
+      'Material: Fabric premium dengan rangka kayu jati. Dimensi: 280cm x 180cm x 85cm. Busa berkualitas tinggi dengan ketebalan 20cm. Cocok untuk ruang keluarga modern. Garansi 2 tahun untuk rangka.',
   },
   {
-    id: "2",
-    name: "Sofa 3 Seater Classic",
-    description: "Sofa klasik 3 dudukan dengan kualitas premium",
+    id: '2',
+    name: 'SpringBed Imut Anak- Anak',
+    description: 'Springbed ukuran kecil untuk kamar anak-anak',
     price: 6500000,
-    image: "https://images.unsplash.com/photo-1763565909003-46e9dfb68a00?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzb2ZhJTIwZnVybml0dXJlfGVufDF8fHx8MTc2NDE1NjgzNXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "Sofa",
+    image: springbed1,
+    category: 'SpringBed',
     stock: 3,
-    branch: "Batam",
-    branchPhone: "+6281345678901",
-    details: "Material: Kulit sintetis premium dengan jahitan rapi. Dimensi: 200cm x 90cm x 85cm. Desain klasik yang elegan. Rangka kayu mahoni solid. Busa super empuk dan tahan lama.",
+    branch: 'Batam',
+    branchPhone: '+6281345678901',
+    details:
+      'Ukuran: 120cm x 200cm. Teknologi: Bonnell spring untuk kenyamanan optimal. Lapisan: Busa memory foam + latex. Ketebalan 25cm. Desain lucu dengan motif kartun anak-anak. Garansi 3 tahun.',
   },
   {
-    id: "3",
-    name: "Kursi Makan Jati Minimalis",
-    description: "Set kursi makan kayu jati dengan desain minimalis",
+    id: '3',
+    name: 'Lemari Pakaian dengan Cermin Full-Body',
+    description: 'Lemari pakaian dengan pintu cermin besar',
     price: 3500000,
-    image: "https://images.unsplash.com/photo-1760716478125-aa948e99ef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjaGFpciUyMGZ1cm5pdHVyZXxlbnwxfHx8fDE3NjQyMTc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "Kursi",
+    image: tempahan6,
+    category: 'Kursi',
     stock: 10,
-    branch: "Medan",
-    branchPhone: "+6281234567890",
-    details: "Material: Kayu jati grade A dengan finishing natural. Set isi 4 kursi. Dimensi per kursi: 45cm x 45cm x 90cm. Desain ergonomis dan nyaman. Tahan rayap dan air. Garansi 3 tahun.",
-  },
-  {
-    id: "4",
-    name: "Kursi Kantor Executive",
-    description: "Kursi kantor premium dengan fitur ergonomis lengkap",
-    price: 2800000,
-    image: "https://images.unsplash.com/photo-1760716478125-aa948e99ef85?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjaGFpciUyMGZ1cm5pdHVyZXxlbnwxfHx8fDE3NjQyMTc3MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "Kursi",
-    stock: 7,
-    branch: "Balige",
-    branchPhone: "+6281456789012",
-    details: "Material: Kulit sintetis dengan mesh breathable. Fitur: Adjustable height, lumbar support, armrest 3D. Roda nylon anti gores. Max kapasitas 120kg. Cocok untuk bekerja 8+ jam.",
-  },
-  {
-    id: "5",
-    name: "SpringBed Pocket Spring King",
-    description: "Kasur springbed ukuran king dengan teknologi pocket spring",
-    price: 12500000,
-    image: "https://images.unsplash.com/photo-1689626698503-47934d011285?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWRyb29tJTIwc3ByaW5nYmVkfGVufDF8fHx8MTc2NDIxNzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "SpringBed",
-    stock: 4,
-    branch: "Batam",
-    branchPhone: "+6281345678901",
-    details: "Ukuran: 180cm x 200cm. Teknologi: Pocket Spring 2000 coils untuk support optimal. Lapisan: Memory foam + latex natural. Ketebalan 30cm. Dilengkapi divan dan headboard. Garansi 5 tahun.",
-  },
-  {
-    id: "6",
-    name: "SpringBed Ortopedi Queen",
-    description: "Kasur ortopedi untuk kesehatan tulang belakang",
-    price: 9500000,
-    image: "https://images.unsplash.com/photo-1689626698503-47934d011285?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWRyb29tJTIwc3ByaW5nYmVkfGVufDF8fHx8MTc2NDIxNzcxMnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "SpringBed",
-    stock: 6,
-    branch: "Samosir",
-    branchPhone: "+6281567890123",
-    details: "Ukuran: 160cm x 200cm. Teknologi ortopedi untuk support tulang belakang. Medium-firm comfort level. Anti dust mite dan hypoallergenic. Ketebalan 28cm. Cocok untuk yang punya masalah punggung.",
-  },
-  {
-    id: "7",
-    name: "Meja TV Minimalis Modern",
-    description: "Meja TV dengan desain minimalis dan storage maksimal",
-    price: 3200000,
-    image: "https://images.unsplash.com/photo-1715582888585-f357318c0a1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXN0b20lMjBmdXJuaXR1cmV8ZW58MXx8fHwxNzY0MTYzNzI3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "Lainnya",
-    stock: 8,
-    branch: "Medan",
-    branchPhone: "+6281234567890",
-    details: "Material: MDF finishing HPL anti gores. Dimensi: 180cm x 40cm x 50cm. 3 laci + 2 rak terbuka. Cable management system. Bisa untuk TV sampai 55 inch. Desain modern skandinavia.",
-  },
-  {
-    id: "8",
-    name: "Lemari Pakaian 3 Pintu",
-    description: "Lemari pakaian sliding door dengan cermin",
-    price: 7800000,
-    image: "https://images.unsplash.com/photo-1715582888585-f357318c0a1e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjdXN0b20lMjBmdXJuaXR1cmV8ZW58MXx8fHwxNzY0MTYzNzI3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-    category: "Lainnya",
-    stock: 3,
-    branch: "Balige",
-    branchPhone: "+6281456789012",
-    details: "Material: Kayu olahan dengan finishing premium. Dimensi: 180cm x 60cm x 220cm. Sliding door dengan cermin besar. Interior: Gantungan + laci + rak. Kapasitas besar untuk 2-3 orang.",
+    branch: 'Medan',
+    branchPhone: '+6281234567890',
+    details: 'Material: Kayu jati grade A dengan finishing natural. Set isi 4 kursi. Dimensi per kursi: 45cm x 45cm x 90cm. Desain ergonomis dan nyaman. Tahan rayap dan air. Garansi 3 tahun.',
   },
 ];
