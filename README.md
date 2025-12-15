@@ -1,11 +1,11 @@
+# E-Commerce Frontend for UD.Mexico
 
-  # E-Commerce Frontend for UD.Mexico
+## Running the code
 
-  This is a code bundle for E-Commerce Frontend for UD.Mexico. The original project is available at https://www.figma.com/design/kqR5X5sBD1Bwlv2b6V49d8/E-Commerce-Frontend-for-UD.Mexico.
+Run `npm install` to install dependencies.
 
-  ## Running the code
+Run `npm install --save-dev @types/react-icons`
 
-  Run `npm i` to install the dependencies.
+Run `npm i --save-dev @types/react @types/react-dom`
 
-  Run `npm run dev` to start the development server.
-  
+Run `npm run dev` to start the development server.
